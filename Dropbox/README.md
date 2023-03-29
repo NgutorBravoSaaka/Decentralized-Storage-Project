@@ -10,7 +10,7 @@ Usage
 To use the project, follow these steps:
 
 Start a local blockchain network using Hardhat. Run npx hardhat node to start a local network and npx hardhat deploy to deploy the smart contract to the local network.
-Interact with the smart contract using the provided functions. For example, you can use the storeData function to store data on the network and the retrieveData function to retrieve data from the network.
+Interact with the smart contract using the provided functions. For example, you can use the addFile function to store data on the network and the retrieveData function to retrieve data from the network.
 Smart Contract
 The smart contract is written in Solidity and is responsible for storing and retrieving data on the decentralized network. It uses IPFS to store the actual data, and the smart contract only stores the IPFS hash.
 
